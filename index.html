@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Essa tag faz aparecer no ato da pesquisa no mecanismo de busca a frase descrita em content-->
+    <meta
+      name="description"
+      content="Minha Landing Page criada com o tema do The GodFather"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <nav class="cabecalho-menu">
+        <a href="" target="">
+          <img
+            id="logo"
+            class="cabecalho-imagem"
+            src="assets/logo.png"
+            alt="logo"
+          />
+        </a>
+        <a
+          class="cabecalho-menu-item"
+          href="https://github.com/AbelardoAndrade"
+          target="_blank"
+          ><abbr title="Link Externo">GitHub</abbr></a
+        >
+        <a id="sobre" class="cabecalho-menu-item" href="#"
+          ><abbr title="Click e descanse o mouse sobre a caixa">Sobre</abbr></a
+        >
+        <a id="portifolio" class="cabecalho-menu-item" href="#"
+          ><abbr title="Click e descanse o mouse sobre a caixa"
+            >Portifólio</abbr
+          ></a
+        >
+      </nav>
+    </header>
+    <div id="mensagem">
+      <h4 class="titulo-mensagem-sobre">🛈 Sobre</h4>
+
+      <img class="imagem-sobre" src="assets/logo.png" width="100" alt="logo" />
+
+      <p class="texto-sobre">
+        Essa landing page foi criada através de estudos sobre HTML5, CSS3 e JS
+        puro (Vanilla JS). No link GitHub, você terá acesso ao meu perfil, onde
+        os meus projetos estão armazenados. O botão portifólio, te levará ao
+        portifólio criado por mim. Caso seja um avaliador, lhe farei um proposta
+        irrecusável: <br />
+        Me convide para o seu time e você terá um verdadeiro Consigliere de
+        guerra! Capische?
+      </p>
+    </div>
+
+    <div id="mensagemPorti">
+      <h4 class="titulo-mensagem-porti">🛈 O Portifólio</h4>
+
+      <img class="imagem-sobre" src="assets/logo.png" width="100" alt="logo" />
+
+      <p class="texto-porti">
+        O link para o portifólio ainda não está disponível, mas estou
+        trabalhando duro para apresentar algo que seja relevante e bem feito,
+        então, tenha paciência Capo! Enquanto isso, busque alguns cannolis!
+      </p>
+    </div>
+
+    <main class="conteudo">
+      <div id="video">
+        <iframe
+          width="900"
+          height="550"
+          src="https://www.youtube.com/embed/UaVTIH8mujA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+          <h1 class="conteudo-principal-escrito-titulo">The Corleones</h1>
+          <h2 class="conteudo-principal-escrito-subtitulo">
+            Welcome to the family
+          </h2>
+
+          <button id="play" class="conteudo-principal-escrito-botao">
+            <abbr title="Link do Youtube">The Movie (Trailer)</abbr>
+          </button>
+          <button id="closeBtn">Close vídeo</button>
+        </div>
+      </section>
+
+      <section class="conteudo-secundario">
+        <h3 class="conteudo-secundario-titulo">Sobre o filme</h3>
+        <p class="conteudo-secundario-paragrafo">
+          O Poderoso Chefão é um filme norte-americano de crime, dirigido por
+          Francis Ford Coppola e lançado em 1972. Uma das obras mais famosas e
+          influentes do mundo do cinema, o longa-metragem se tornou um clássico
+          incontornável, aclamado pelo público e pela crítica. Inspirado no
+          romance homônimo de Mario Puzo, o enredo é passado na década de 40, em
+          Nova York, e se foca na figura de Don Corleone, um mafioso
+          extremamente influente. Quando a saúde do patriarca começa a se
+          deteriorar, a família precisa se reorganizar para manter o poder e
+          derrubar seus inimigos. Fonte:
+          <abbr
+            title="https://www.culturagenial.com/filme-o-poderoso-chefao/#:~:text=Inspirado%20no%20romance%20hom%C3%B4nimo%20de,poder%20e%20derrubar%20seus%20inimigos."
+            >CulturaGenial</abbr
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <img class="rodape-imagem" src="assets/logo.png" width="300" alt="logo" />
+      <h2 class="rodape-titulo">The GodFather</h2>
+      <p class="note">Criado e desenvolvido por Abelardo Andrade 2023 &copy;</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
